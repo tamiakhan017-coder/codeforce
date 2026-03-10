@@ -4,10 +4,12 @@ using namespace std;
 
 int main()
 {
-    long long n,m,a;
-    cin>> n >> m >> a;
-    long long flagstoneN = (n+a-1)/a;
-    long long flagstoneM = (m+a-1)/a;
-    cout<< flagstoneN * flagstoneM;
+    int a,b,c,d;
+    cin>>a>>b>>c>>d;
+    if(a==b==c==d){
+        cout<<"YES\n";
+    }else{
+        cout<<"NO\n";
+    }
     return 0;
 }

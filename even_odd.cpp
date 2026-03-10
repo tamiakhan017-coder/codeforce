@@ -7,9 +7,9 @@ int main ()
     cin>>n>>k;
     long long odd_count=(n+1)/2;
     if(k<=odd_count){
-        cout<<2*k-1;
+        cout<<(2*k-1)<<endl;
     }else{
-        cout<<2*(k-odd_count);
+        cout<<(k-odd_count)*2<<endl;
     }
     return 0;
 }

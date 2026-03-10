@@ -4,15 +4,15 @@ using namespace std;
 
 int main()
 {
-    long long n;
+   int t;
+   cin>>t;
+   while(t--){
+    int n;
     cin>>n;
-    long long x=sqrt(n);
-    if(x*x==n){
-        cout<<"YES\n";
-    }else{
-        cout<<"NO\n";
+    for(int i=1;i<=n;i++){
+        cout<<i<<" ";
     }
-
-
-    return 0;
+    cout<<"\n";
+   }
+   return 0;
 }
