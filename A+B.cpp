@@ -1,4 +1,4 @@
-https://codeforces.com/problemset/problem/1772/A
+//https://codeforces.com/problemset/problem/1772/A
 #include <iostream>
 using namespace std;
 
@@ -14,4 +14,5 @@ int main() {
     }
     return 0;
 }
+
 
